@@ -13,6 +13,11 @@ body,
 
 /* main page */
 
+.books-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .list-books-title {
   padding: 10px 0;
   background: #2e7c31;
@@ -174,4 +179,11 @@ body,
   padding: 20px 10px 0;
   text-align: center;
   font-size: 0.8em;
+}
+
+
+/* Search Error */
+.search-error {
+  color: red;
+  font-weight: bold;
 }

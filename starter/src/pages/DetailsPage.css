@@ -1,0 +1,70 @@
+.book-detail-title {
+    padding: 10px 0;
+    background: #2e7c31;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    display: flex;
+}
+.book-detail-title h1 {
+    font-weight: 400;
+    margin: 0;
+    color: white;
+}
+.details-content {
+    padding: 80px 0 80px;
+    flex: 1;
+
+}
+
+.close-details {
+    display: block;
+    top: 20px;
+    left: 15px;
+    width: 50px;
+    height: 53px;
+    background-image: url("../icons/arrow-back.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 28px;
+    font-size: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+
+.details-loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.details-error {
+    color: red;
+    font-weight: bold;
+}
+
+.details-header {
+    display: flex;
+    padding-left: 5px;
+}
+
+.details-sidepanel {
+    padding-left: 10px;
+}
+.details-sidepanel h1 {
+    font-weight: normal;
+}
+.details-sidepanel h3 {
+    font-weight: lighter;
+}
+
+.details-description {
+    padding: 10px 60px 0 60px;
+}
